@@ -18,11 +18,11 @@ public class ReadWordTablefromhncbform {
 
 		try {
 			// Specify the path to your DOCX file
-			String filePath = "C:\\Users\\tiger\\Downloads\\SR-016-004_報廢待調撥故障硬碟設備明細表_V2.docx";
+			String filePath = "docx file path";
 			InputStream inputStream = new FileInputStream(filePath);
 			InputStreamReader isr = new InputStreamReader(inputStream);
 			BufferedReader bReader = new BufferedReader(isr);
-			FileWriter fWriter = new FileWriter("C:\\Users\\tiger\\Downloads\\disk\\checkdisklist.csv");
+			FileWriter fWriter = new FileWriter("write to csv");
 			BufferedWriter bWriter = new BufferedWriter(fWriter);
 			// Create a FileInputStream to read the DOCX file
 			FileInputStream fis = new FileInputStream(filePath);
