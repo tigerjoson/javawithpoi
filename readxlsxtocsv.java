@@ -17,7 +17,7 @@ import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
-public class Pandoraexceltocsv {
+public class exceltocsv {
 
 	public static void main(String[] args) throws Exception {
 		DataFormatter poiFormatter = new DataFormatter();
