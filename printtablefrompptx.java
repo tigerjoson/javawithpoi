@@ -11,7 +11,7 @@ import org.apache.poi.xslf.usermodel.XSLFTable;
 public class printtablefrompptx {
 
 	public static void main(String[] args) throws Exception {
-		FileInputStream fis = new FileInputStream("C:\\Users\\tiger\\OneDrive\\桌面\\參考資料\\hncb綜合系統科\\code_riview_P073002_SnY家事事件查詢\\uipath_P073002_SnY家事事件查詢.pptx");
+		FileInputStream fis = new FileInputStream("your_pptx");
 		XMLSlideShow pptx = new XMLSlideShow(fis);
 
 		for (XSLFSlide slide : pptx.getSlides()) {
