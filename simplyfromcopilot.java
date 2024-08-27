@@ -80,6 +80,8 @@ public class Simplydocxfrmai implements ActionListener {
 //					paragraph.createRun().setText(newString);
 //					paragraph.createRun().addBreak();
 					XWPFParagraph paragraph1 = outdocument.createParagraph();
+					//paragraph1.createRun() == press enter in docx
+					//we need to new paragraph for deffirent paragraph
 					paragraph1.createRun().setText(newString);
 				}
 
